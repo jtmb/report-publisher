@@ -89,8 +89,8 @@ include 'dist/php/sing-in-auth.php';
             </div>
         </div>
     </div>
-    <script src="./dist/js/tabler.min.js?1684106062" defer></script>
-    <script src="./dist/js/demo.min.js?1684106062" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
     <script src="./dist/js/show-password.js" defer></script>
 </body>
 </html>
