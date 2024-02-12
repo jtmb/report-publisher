@@ -1,5 +1,5 @@
 <?php
-include 'dist/php/dashboard-auth.php';
+// include 'dist/php/dashboard-auth.php';
 ?>
 
 <!DOCTYPE html>
@@ -39,9 +39,10 @@ include 'dist/php/dashboard-auth.php';
           <div class="navbar-nav flex-row order-md-last">
             <div class="nav-item d-none d-md-flex me-3">
               <div class="btn-list">
-                <a href="https://github.com/jtmb/web-hooker" class="btn" target="_blank" rel="noreferrer">
+                <a href="https://" class="btn" target="_blank" rel="noreferrer">
                   <!-- Download SVG icon from http://tabler-icons.io/i/brand-github -->
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-git" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 8m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 15v-6" /><path d="M15 11l-2 -2" /><path d="M11 7l-1.9 -1.9" /><path d="M13.446 2.6l7.955 7.954a2.045 2.045 0 0 1 0 2.892l-7.955 7.955a2.045 2.045 0 0 1 -2.892 0l-7.955 -7.955a2.045 2.045 0 0 1 0 -2.892l7.955 -7.955a2.045 2.045 0 0 1 2.892 0z" /></svg>                  Source code
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-git" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 8m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 15v-6" /><path d="M15 11l-2 -2" /><path d="M11 7l-1.9 -1.9" /><path d="M13.446 2.6l7.955 7.954a2.045 2.045 0 0 1 0 2.892l-7.955 7.955a2.045 2.045 0 0 1 -2.892 0l-7.955 -7.955a2.045 2.045 0 0 1 0 -2.892l7.955 -7.955a2.045 2.045 0 0 1 2.892 0z" /></svg>                  
+                  Source code
                 </a>
               </div>
             </div>
@@ -49,7 +50,7 @@ include 'dist/php/dashboard-auth.php';
               <a href="?theme=dark" class="nav-link px-0 hide-theme-dark" title="Enable dark mode" data-bs-toggle="tooltip"
 		   data-bs-placement="bottom">
                 <!-- Download SVG icon from http://tabler-icons.io/i/moon -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" /></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" /><path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7" /></svg>
               </a>
               <a href="?theme=light" class="nav-link px-0 hide-theme-light" title="Enable light mode" data-bs-toggle="tooltip"
 		   data-bs-placement="bottom">
@@ -67,9 +68,9 @@ include 'dist/php/dashboard-auth.php';
                   </div>
               </a>
               <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                  <a href="#" class="dropdown-item">Feedback</a>
+                  <!-- <a href="#" class="dropdown-item">Feedback</a>
                   <div class="dropdown-divider"></div>
-                  <a href="./settings.html" class="dropdown-item">Settings</a>
+                  <a href="./settings.html" class="dropdown-item">Settings</a> -->
                   <a href="/index.php?logout=true" class="dropdown-item">Logout</a>
               </div>
           </div>
@@ -99,18 +100,20 @@ include 'dist/php/dashboard-auth.php';
                     </span>
                   </a>
                   <div class="dropdown-menu">
-                    <a class="dropdown-item" href="https://github.com/jtmb/web-hooker/blob/master/readme.md#getting-started" target="_blank" rel="noopener">
+                    <a class="dropdown-item" href="https://" target="_blank" rel="noopener">
                       Documentation
                     </a>
-                    <a class="dropdown-item" href="https://github.com/jtmb/web-hooker" target="_blank" rel="noopener">
+                    <a class="dropdown-item" href="https:" target="_blank" rel="noopener">
                       Source code
                     </a>
                     <a class="dropdown-item text-pink" href="https://github.com/sponsors/jtmb" target="_blank" rel="noopener">
                       <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-help" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M12 17l0 .01" /><path d="M12 13.5a1.5 1.5 0 0 1 1 -1.5a2.6 2.6 0 1 0 -3 -4" /></svg>                      Report Issue
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-help" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" /><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M12 17l0 .01" /><path d="M12 13.5a1.5 1.5 0 0 1 1 -1.5a2.6 2.6 0 1 0 -3 -4" /></svg>                      Report Issue
                     </a>
+
                 </li>
               </ul>
+
     <!-- Page header -->
     </header>
     <div class="page-wrapper">
@@ -120,11 +123,20 @@ include 'dist/php/dashboard-auth.php';
             <div class="col">
               <h2 class="page-title">
                 Dashboard
+                <b></b>
               </h2>
             </div>
           </div>
         </div>
       <div class="page-wrapper">
+                    <!-- Search bar -->
+                    <div class="container-xl">
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search reports" aria-label="Search" id="searchInput">
+                            <button class="btn btn-outline-primary" type="button" onclick="searchReports()">Search</button> <!-- Added onclick attribute -->
+                        </form>
+                    </div>
+                </div>
           <!-- Page header End -->
 
 <!-- Page body -->
@@ -132,13 +144,13 @@ include 'dist/php/dashboard-auth.php';
     <div class="container-xl">
         <div class="table-responsive">
             <table class="table table-vcenter">
-                <thead>
                     <tr>
                         <th>Name</th>
                         <th>Date Created</th>
                         <th>Actions</th> <!-- Add Actions column -->
                     </tr>
                 </thead>
+
                 <tbody>
                     <?php
                     $reportsDirectory = '/reports';
@@ -146,10 +158,10 @@ include 'dist/php/dashboard-auth.php';
 
                     foreach ($reportFiles as $reportFile) {
                         echo '<tr>';
-                        echo '<td>' . basename($reportFile) . '</td>'; // Use document title as name
-                        echo '<td>' . date('F j, Y', filectime($reportFile)) . '</td>'; // Date created
+                        echo '<td>' . basename($reportFile) . '</td>';
+                        echo '<td>' . date("Y-m-d H:i:s", filectime($reportFile)) . '</td>';
                         echo '<td>';
-                        echo '<a href="' . $reportFile . '" target="_blank">View</a>'; // View button that opens in a new window
+                        echo '<a href="view_report.php?report=' . basename($reportFile) . '">View</a>';
                         echo '</td>';
                         echo '</tr>';
                     }
@@ -159,42 +171,13 @@ include 'dist/php/dashboard-auth.php';
         </div>
     </div>
 </div>
-<!-- Page body end -->
-
-
-            <script src="./dist/js/notifications.js"></script>
-        </div>
-        <!-- Page content end -->
+<!-- Page body End -->
     </div>
-    <!-- Toasts for Notifications -->
-    <div class="position-fixed top-0 end-0 p-3">
-        <!-- Success Notification -->
-        <div class="toast toast-success" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="5000">
-            <!-- Your success notification content -->
-        </div>
-
-        <!-- Error Notification -->
-        <div class="toast toast-error" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="5000">
-            <!-- Your error notification content -->
-        </div>
-
-        <!-- File Not Found Notification -->
-        <div class="toast toast-not-found" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="5000">
-            <!-- Your file not found notification content -->
-        </div>
-
-        <!-- Invalid Request Notification -->
-        <div class="toast toast-invalid-request" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="5000">
-            <!-- Your invalid request notification content -->
-        </div>
-    </div>
-    <footer class="footer footer-transparent d-print-none">
-        <!-- Your existing footer content -->
-    </footer>
+  </div>
 </div>
-<!-- Libs JS -->
-<!-- Tabler Core -->
-<script src="./dist/js/tabler.min.js?1684106062" defer></script>
-<script src="./dist/js/demo.min.js?1684106062" defer></script>
+    <!-- Scripts -->
+v
+    <script src="./dist/js/search-reports.js" defer></script>
+    <script src="./dist/js/sort-reports.js" defer></script>
 </body>
 </html>
