@@ -159,7 +159,7 @@
                     foreach ($reportFiles as $reportFile) {
                         echo '<tr>';
                         echo '<td>' . basename($reportFile) . '</td>';
-                        echo '<td>' . date("Y-m-d H:i:s", filectime($reportFile)) . '</td>';
+                        echo '<td>' . date("Y-m-d", filectime($reportFile)) . '</td>';
                         echo '<td>';
                         echo '<a href="view_report.php?report=' . basename($reportFile) . '">View</a>';
                         echo '</td>';
@@ -179,5 +179,6 @@
 v
     <script src="./dist/js/search-reports.js" defer></script>
     <script src="./dist/js/sort-reports.js" defer></script>
+    <script src="./dist/js/dark-light-mode.js" defer></script>
 </body>
 </html>
